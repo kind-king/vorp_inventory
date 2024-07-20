@@ -11,6 +11,7 @@ description 'Inventory System for RedM VORPCore framework'
 lua54 'yes'
 
 shared_scripts {
+  '@ukrainian_cyrillic/shared/language.lua',
   "config/config.lua",
   "config/groups.lua",
   "config/weapons.lua",

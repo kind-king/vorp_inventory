@@ -28,7 +28,7 @@ PickupsService.createPickup           = function(name, amount, metadata, weaponI
 	local coords      = GetEntityCoords(playerPed, true, true)
 	local forward     = GetEntityForwardVector(playerPed)
 	local position    = vector3(coords.x + forward.x * 1.6, coords.y + forward.y * 1.6, coords.z + forward.z * 1.6)
-	local pickupModel = "P_COTTONBOX01X"
+	local pickupModel = "p_bag_leather_doctor" -- "P_COTTONBOX01X"
 
 	if dropAll then
 		local randomOffsetX = math.random(-35, 35)

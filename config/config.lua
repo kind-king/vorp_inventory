@@ -2,7 +2,7 @@
 --------------------------------------- CONFIG -----------------------------------------------------
 -- VORP INVENTORY LUA*
 
-Lang = "English"
+Lang = "Ukrainian"
 
 Config = {
 	--======================= DEVELOPMENT ==============================--
@@ -15,7 +15,7 @@ Config = {
 	NewPlayers               = false, --- if you dont want new players to give money or items then set to true. this can avoid cheaters giving stuff on first join
 	-- GOLD ITEM LIKE DOLLARS
 	UseRolItem               = false, -- to show rol in inventory
-	UseGoldItem              = false,
+	UseGoldItem              = true,
 	AddGoldItem              = false, -- Should there be an item in inventory to represent gold
 	AddDollarItem            = true, -- Should there be an item in inventory to represent dollars
 	AddAmmoItem              = true, -- Should there be an item in inventory to represent the gun belt
@@ -86,12 +86,12 @@ Config = {
 
 	-- FIRST JOIN
 	startItems          = {
-		consumable_raspberrywater = 2, --ITEMS SAME NAME AS IN DATABASE
-		ammorevolvernormal = 1   --AMMO SAME NAME AS I NTHE DATABASE
+		water = 5, --ITEMS SAME NAME AS IN DATABASE
+		consumable_cornedbeef_can = 5   --AMMO SAME NAME AS I NTHE DATABASE
 	},
 
 	startWeapons        = {
-		"WEAPON_MELEE_KNIFE" --WEAPON HASH NAME
+		-- "WEAPON_MELEE_KNIFE" --WEAPON HASH NAME
 	},
 
 	-- items that dont get added up torwards your max weapon count
